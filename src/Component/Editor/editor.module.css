@@ -1,0 +1,47 @@
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #c2c0c0;
+    border-bottom: 1px solid #c2c0c0;
+    padding: 20px;
+}
+
+.toolbarIcon{
+    color:gray;
+    font-size: 18px;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.editorBtn{
+    background: none;
+    border: none;
+}
+.formattingTools{
+    display: flex;
+    gap: 20px;
+}
+
+.emojipicker{
+    position: absolute;
+    z-index: 999;
+}
+
+.fileTools{
+    display: flex;
+    gap: 20px;
+}
+
+.bar {
+    height: 20px;
+    border: 1px solid #c2c0c0;
+    width: 1px;
+  }
+
+.editor{
+  border: none;
+  outline: none;
+  padding: 20px;
+  height: calc(100vh - 300px);
+  overflow: auto;
+}

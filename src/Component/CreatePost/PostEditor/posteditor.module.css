@@ -1,0 +1,94 @@
+.container {
+  width: 42vw;
+  border-left: 1px solid #c2c0c0;
+  border-right: 1px solid #c2c0c0;
+  height: 100vh;
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+.scoreBtn {
+  width: 150px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 10px;
+  border: 1px solid #c2c0c0;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: black;
+  font-family: sans-serif;
+}
+
+.rightHeader {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.bar {
+  height: 30px;
+  border: 1px solid gray;
+  width: 1px;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+}
+
+.profileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.footerTexts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.footerText{
+    color: gray;
+}
+
+.footerBtns{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.rightBtns{
+    display: flex;
+    gap: 15px;
+}
+
+.footerBtn {
+    width: 130px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 10px;
+    border: 1px solid #c2c0c0;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: black;
+    font-family: sans-serif;
+  }
+
+  .btnIcon{
+    font-size: 20px;
+  }

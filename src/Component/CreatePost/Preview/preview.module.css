@@ -1,0 +1,130 @@
+.container {
+  width: 42vw;
+  height: 100vh;
+}
+
+.previewHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.rightHeader {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.devices{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.deviceIcon{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.active{
+    font-size: 30px;
+    padding: 5px;
+    color: blue;
+    background-color: rgb(85 133 255 / 20%);
+    border-radius: 50%;
+}
+
+.PreviewMain{
+    background-color: #e9f5ff;
+    padding-top: 20px;
+    height: calc(100vh - 72px);
+    overflow: auto;
+}
+
+.copyBtn{
+    width: 130px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 10px;
+    border: 1px solid #c2c0c0;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: black;
+    font-family: sans-serif;
+    margin: 0px auto 20px auto;
+    cursor: pointer;
+}
+.previewCard{
+    border: 2px solid #c2c0c0;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.profile{
+    display: flex;
+    gap: 10px;
+}
+
+.profileImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.profileDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.post{
+    width: 100%;
+    word-break: break-all;
+    color: black;
+}
+
+.impressionCount{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot{
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-top:5px;
+
+}
+
+.commentsAndRepost{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.impressionList{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.impression{
+    display: flex;
+    align-items: end;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: gray;
+    gap: 3px;
+}
+
+.impressionIcon{
+  font-size: 16px;
+}

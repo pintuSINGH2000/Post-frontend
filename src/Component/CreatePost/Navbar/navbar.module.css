@@ -1,0 +1,85 @@
+.container{
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.postBtn{
+    width: 95%;
+    background-color: blue;
+    border-radius: 30px;
+    padding: 13px 10px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: sans-serif;
+}
+
+.edit{
+    font-size: 20px;
+}
+.navListTop{
+    padding-top: 50px !important;
+}
+
+.navListTop,.navListBottom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    padding: 0px 10px 10px 10px;
+}
+
+.navListItem{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    font-weight: 700;
+    gap: 10px;
+    font-family: sans-serif;
+}
+
+.navIcon{
+    font-size: 22px;
+}
+
+.planCard{
+    border: 2px solid #c2c0c0;
+    background-color: #e9f5ff;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.planCardTop{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.upgradeBtn{
+    width: 95%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 10px;
+    border: 1px solid #c2c0c0;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: black;
+    font-family: sans-serif;
+}
