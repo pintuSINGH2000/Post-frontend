@@ -14,7 +14,6 @@ import {  OpenAI } from "openai";
 
 const Editor = ({ onContentChange }) => {
   const editorRef = useRef(null);
-  const [isProcessing, setIsProcessing] = useState(false);
   const [showEmojiPicker, setShowEmojiPicker] = useState(false);
   const emojiPickerRef = useRef(null);
   const [savedRange, setSavedRange] = useState(null);
@@ -152,13 +151,12 @@ const Editor = ({ onContentChange }) => {
   };
 
   const handleInput = () => {
-    const content = editorRef.current.innerHTML; // Get the editor's content (HTML)
+    const content = editorRef.current.innerHTML; 
     onContentChange(content); // Send updated content to the parent
   };
 
   const openai = new OpenAI({
-    apiKey:"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", 
-    dangerouslyAllowBrowser: true // Replace with your actual API key or environment variable
+    apiKey:process.env.REACT_OPENAI_API_KEY, 
   });
 
   // Handle AI actions
